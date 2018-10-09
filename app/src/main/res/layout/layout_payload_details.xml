@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Payload_id -->
+    <TextView
+        android:id="@+id/txt_payload_id"
+        android:layout_width="match_parent"
+        android:text="Payload_id"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Norad Id -->
+    <TextView
+        android:id="@+id/txt_norad_id"
+        android:layout_width="match_parent"
+        android:text="Norad Id"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Reused -->
+    <TextView
+        android:id="@+id/txt_reused"
+        android:layout_width="match_parent"
+        android:text="reused"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!--   Customers -->
+    <TextView
+        android:id="@+id/txt_customers"
+        android:layout_width="match_parent"
+        android:text="Customers"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <!-- Nationality -->
+    <TextView
+        android:id="@+id/txt_nationality"
+        android:layout_width="match_parent"
+        android:text="Nationality"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Manufacturer -->
+    <TextView
+        android:id="@+id/txt_manufacturer"
+        android:layout_width="match_parent"
+        android:text="Manufacturer"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Payload Type -->
+    <TextView
+        android:id="@+id/txt_payload_type"
+        android:layout_width="match_parent"
+        android:text="Payload Type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Payload Mass Kg -->
+    <TextView
+        android:id="@+id/txt_payload_mass_kg"
+        android:layout_width="match_parent"
+        android:text="Payload Mass Kg"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Payload Mass lbs -->
+    <TextView
+        android:id="@+id/txt_payload_mass_lbs"
+        android:layout_width="match_parent"
+        android:text="Payload Mass lbs"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Orbit -->
+    <TextView
+        android:id="@+id/txt_orbit"
+        android:layout_width="match_parent"
+        android:text="Orbit"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Orbit Params-->
+    <Spinner
+        android:id="@+id/list_orbit_params"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/spinner_title"
+        />
+</LinearLayout>

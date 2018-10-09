@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/launchscrollView">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- flight_number -->
+    <TextView
+        android:id="@+id/txt_flight_number"
+        android:layout_width="match_parent"
+        android:text="flight_number"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- mission_name -->
+    <TextView
+        android:id="@+id/txt_mission_name"
+        android:layout_width="match_parent"
+        android:text="mission_name"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Launch_year -->
+    <TextView
+        android:id="@+id/txt_launch_year"
+        android:layout_width="match_parent"
+        android:text="launch_year"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Launch_date_unix -->
+    <TextView
+        android:id="@+id/txt_launch_date_unix"
+        android:layout_width="match_parent"
+        android:text="launch_date_unix"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Launch_date_utc -->
+    <TextView
+        android:id="@+id/txt_launch_date_utc"
+        android:layout_width="match_parent"
+        android:text="launch_date_utc"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Launch_date_local -->
+    <TextView
+        android:id="@+id/txt_launch_date_local"
+        android:layout_width="match_parent"
+        android:text="launch_date_local"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Launch List-->
+    <Spinner
+        android:id="@+id/links_LaunchList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/spinner_title"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- customers -->
+    <TextView
+        android:id="@+id/txt_customers"
+        android:layout_width="match_parent"
+        android:text="customers"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+</LinearLayout>
+</ScrollView>

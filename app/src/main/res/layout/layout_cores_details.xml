@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Core Serial -->
+    <TextView
+        android:id="@+id/txt_core_serial"
+        android:layout_width="match_parent"
+        android:text="core_serial"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Flight -->
+    <TextView
+        android:id="@+id/txt_flight"
+        android:layout_width="match_parent"
+        android:text="flight"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!--   Block -->
+    <TextView
+        android:id="@+id/txt_block"
+        android:layout_width="match_parent"
+        android:text="block"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Reused -->
+    <TextView
+        android:id="@+id/txt_reused"
+        android:layout_width="match_parent"
+        android:text="reused"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Land  Success -->
+    <TextView
+        android:id="@+id/txt_land_success"
+        android:layout_width="match_parent"
+        android:text="land_success"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Landing Intent -->
+    <TextView
+        android:id="@+id/txt_landing_intent"
+        android:layout_width="match_parent"
+        android:text="landing_intent"
+         android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Landing Type -->
+    <TextView
+        android:id="@+id/txt_landing_type"
+        android:layout_width="match_parent"
+        android:text="landing_type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <!-- Landing Vehicle -->
+    <TextView
+        android:id="@+id/txt_landing_vehicle"
+        android:layout_width="match_parent"
+        android:text="landing_vehicle"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+</LinearLayout>

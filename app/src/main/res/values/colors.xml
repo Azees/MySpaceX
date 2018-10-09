@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#51d8c7</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">@color/black</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="button_pressed">#51d8c7</color>
+    <color name="button_focused">#51d8c7</color>
+    <color name="button_default">#C0C0C0</color>
+    <color name="activeColor">@color/colorPrimary</color>
+    <color name="deActiveColor">@color/button_default</color>
+    <color name="deActiveColorText">@color/white</color>
+    <color name="ActiveColorText">@color/black</color>
+
+</resources>

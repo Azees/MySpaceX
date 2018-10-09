@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Rocket_id -->
+    <TextView
+        android:id="@+id/txt_rocket_id"
+        android:layout_width="match_parent"
+        android:text="rocket_id"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Rocket Name -->
+    <TextView
+        android:id="@+id/txt_rocket_name"
+        android:layout_width="match_parent"
+        android:text="rocket_name"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- Rocket Type -->
+    <TextView
+        android:id="@+id/txt_rocket_type"
+        android:layout_width="match_parent"
+        android:text="rocket_type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!--&lt;!&ndash; mission_id &ndash;&gt;
+    <TextView
+        android:id="@+id/txt_mission_id"
+        android:layout_width="match_parent"
+        android:text="mission_id"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />-->
+    <!-- "land_success" -->
+    <TextView
+        android:id="@+id/txt_land_success"
+        android:layout_width="match_parent"
+        android:text="rocket_type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- "landing_intent" -->
+    <TextView
+        android:id="@+id/txt_landing_intent"
+        android:layout_width="match_parent"
+        android:text="rocket_type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- "landing_type" -->
+    <TextView
+        android:id="@+id/txt_landing_type"
+        android:layout_width="match_parent"
+        android:text="rocket_type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:textColor="@color/black" />
+    <!-- "landing_vehicle" -->
+    <TextView
+        android:id="@+id/txt_landing_vehicle"
+        android:layout_width="match_parent"
+        android:text="rocket_type"
+        android:textColor="@color/colorText"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000" />
+    <Spinner
+        android:id="@+id/links_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/spinner_title"
+        />
+</LinearLayout>
+</ScrollView>
